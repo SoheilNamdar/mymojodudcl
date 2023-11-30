@@ -22,8 +22,6 @@ extends AbstractMojo
 {	
 	@Parameter(defaultValue="french")
 	String language;
-
-	
 @Parameter( defaultValue = "${project.build.directory}", readonly = true )
 private File outputDirectory;
 
